@@ -1,0 +1,127 @@
+
+@font-face {
+	    font-family: 'GmarketSansLight';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+@font-face {
+	    font-family: 'GmarketSansMedium';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+@font-face {
+	    font-family: 'GmarketSansBold';
+	    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') 
+	    	format('opentype');
+	    font-weight: normal;
+	    font-style: normal;
+	} 
+
+		div{justify-content: center;}
+
+
+
+		html{font-family: 'GmarketSansMedium';
+		margin: 0;
+		}
+		h1{font-family: 'GmarketSansBold';
+		 font-size: 3rem; }
+		h2{font-family: 'GmarketSansMedium';
+		 font-size: 1.6rem; text-align: left}
+
+		p{font-family: 'GmarketSansLight';
+		 font-size: 18px;
+		 margin: 0; 
+		}
+		body,h1,h2,p{margin: 0; }
+		body{position: relative;}
+
+		body {
+	    justify-content: center;
+	    align-items: center;
+	    min-height: 80vh;
+	    background-color: transparent;
+	    padding: 20px;
+	    box-sizing: border-box; 
+	}
+
+		a{
+		display: flex;
+			position: absolute;
+			top: 700px;
+			left: 50%;
+			transform: translateX(-50%);
+		align-items: center;
+		gap: 10px;
+
+		text-decoration:none;
+		color: black;
+		border: 1px solid gray;
+		border-radius: 10px;
+		padding: 2px 15px;
+		background-color: #e3e3e3;
+
+	}
+
+
+		.wrap{width:600px; margin:auto;}
+
+
+	#result-image, .R-img {
+		margin-top: 280px;
+		margin: auto;
+		position: absolute;
+		top: 270px;
+		left: 50%;
+		transform: translateX(-50%);
+		z-index: 10;
+		width: 380px;
+		filter: drop-shadow(0 0 0.5rem #ffffff)
+
+}
+
+	.mirror {
+		position: absolute;
+		top: 180px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: auto;
+		width: 400px;
+}
+
+
+	#result-container {
+	    margin-top: 30px;
+	    text-align: center;
+	}
+
+	#result-container h2 {
+	    color: #333;
+	    margin-bottom: 20px;
+	    filter: drop-shadow(0 0 0.5rem #ffffff)
+
+	}
+
+	#result-text {
+	    color: #555;
+	    filter: drop-shadow(0 0 0.5rem #ffffff)
+	    
+	}
+
+	
+
+	.bg{background: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTFlZGU2YWYwNTA0OTE0MmYzZjlmODNjMzY5YTFjZTA0MDc4YzEyNyZlcD12MV91c2VyX2Zhdm9yaXRlcyZjdD1n/x1U9NrQlTcZS8/giphy.gif);
+			background-size: 100%;
+			background-attachment: fixed;
+			background-position: center;
+			}
+
+
+
+
+
+
