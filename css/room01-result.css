@@ -60,10 +60,13 @@
 
 		text-decoration:none;
 		color: black;
-		border: 1px solid gray;
+		
 		border-radius: 10px;
 		padding: 2px 15px;
-		background-color: #e3e3e3;
+		background-color: rgba(255, 255, 255, 0.5);
+		backdrop-filter: blur(10px);
+		filter: drop-shadow(0 0 0.5rem #868686)
+	}
 
 	}
 
